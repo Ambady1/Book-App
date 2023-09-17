@@ -1,0 +1,43 @@
+.mainHead{
+    background-color: rgb(234, 230, 43);
+}
+.books{
+display: flex;
+justify-content:center;
+}
+.book{
+    flex: 1;
+}
+
+.book img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: aquamarine;
+}
+.book button{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: 42%;
+}
+.addbutton  {
+    margin-left: -3%;
+    background-color: rgb(214, 230, 40);
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin-top: 106px;
+}
+.delete{
+    background-color: rgb(214, 230, 40);
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 5px;   
+}
+.update{
+    background-color: rgb(214, 230, 40);
+    border: 3px solid black;
+    border-radius: 4px;
+    padding: 5px;   
+}
